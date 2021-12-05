@@ -1,0 +1,22 @@
+﻿cve_id,summary,cvss_score_31,cvss_score_20
+CVE-2020-17007,Windows Error Reporting Elevation of Privilege Vulnerability,7.8,4.6
+CVE-2020-17000,Remote Desktop Protocol Client Information Disclosure Vulnerability,5.5,2.1
+CVE-2020-17014,Windows Print Spooler Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2020-17001.,7.1,6.6
+CVE-2020-28351,The conferencing component on Mitel ShoreTel 19.46.1802.0 devices could allow an unauthenticated attacker to conduct a reflected cross-site scripting (XSS) attack (via the PATH_INFO to index.php) due to insufficient validation for the time_zone ob... read CVE-2020-28351,6.1,4.3
+CVE-2020-25655,"An issue was discovered in ManagedClusterView API, that could allow secrets to be disclosed to users without the correct permissions. Views created for an admin user would be made available for a short time to users with only view permission. In t... read CVE-2020-25655",6.5,4
+CVE-2020-8268,Prototype pollution vulnerability in json8-merge-patch npm package < 1.0.3 may allow attackers to inject or modify methods and properties of the global object constructor.,7.5,5
+CVE-2020-8276,"The implementation of Brave Desktop's privacy-preserving analytics system (P3A) between 1.1 and 1.18.35 logged the timestamp of when the user last opened an incognito window, including Tor windows. The intended behavior was to log the timestamp fo... read CVE-2020-8276",5.5,2.1
+CVE-2020-9300,"The Access Control issues include allowing a regular user to view a restricted incident, user role escalation to admin, users adding themselves as a participant in a restricted incident, and users able to view restricted incidents via the search f... read CVE-2020-9300",6.5,4
+CVE-2020-14040,"The x/text package before 0.3.3 for Go has a vulnerability in encoding/unicode that could lead to the UTF-16 decoder entering an infinite loop, causing the program to crash or run out of memory. An attacker could provide a single byte to a UTF16 d... read CVE-2020-14040",7.5,5
+CVE-2020-16121,PackageKit provided detailed error messages to unprivileged callers that exposed information about file presence and mimetype of files that the user would be unable to determine on its own.,3.3,2.1
+CVE-2020-24990,"An issue was discovered in QSC Q-SYS Core Manager 8.2.1. By utilizing the TFTP service running on UDP port 69, a remote attacker can perform a directory traversal and obtain operating system files via a TFTP GET request, as demonstrated by reading... read CVE-2020-24990",7.5,5
+CVE-2020-17082,"Raw Image Extension Remote Code Execution Vulnerability This CVE ID is unique from CVE-2020-17078, CVE-2020-17079, CVE-2020-17086.",9.8,7.5
+CVE-2020-17086,"Raw Image Extension Remote Code Execution Vulnerability This CVE ID is unique from CVE-2020-17078, CVE-2020-17079, CVE-2020-17082.",9.8,7.5
+CVE-2020-17081,Microsoft Raw Image Extension Information Disclosure Vulnerability,7.5,5
+CVE-2020-17079,"Raw Image Extension Remote Code Execution Vulnerability This CVE ID is unique from CVE-2020-17078, CVE-2020-17082, CVE-2020-17086.",9.8,7.5
+CVE-2020-17078,"Raw Image Extension Remote Code Execution Vulnerability This CVE ID is unique from CVE-2020-17079, CVE-2020-17082, CVE-2020-17086.",9.8,7.5
+CVE-2020-17083,Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2020-17084.,5.4,3.5
+CVE-2020-17084,Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2020-17083.,8.8,9
+CVE-2020-4568,"IBM Tivoli Key Lifecycle Manager 3.0, 3.0.1, and 4.0 stores user credentials in plain in clear text which can be read by a local user. IBM X-Force ID: 184157.",5.5,2.1
+CVE-2020-0409,"In create of FileMap.cpp, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product:... read CVE-2020-0409",7.8,4.6
+CVE-2020-17087,Windows Kernel Local Elevation of Privilege Vulnerability,7.8,7.2
